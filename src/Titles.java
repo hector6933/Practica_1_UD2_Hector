@@ -1,5 +1,5 @@
 public class Titles {
-
+// Clase Titles
     public static void writeTitle(String c) {
 
         System.out.println("");

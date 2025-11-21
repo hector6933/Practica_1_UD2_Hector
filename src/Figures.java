@@ -13,4 +13,11 @@ public class Figures {
             System.out.println("");
         }
     }
+
+    public static void writeSquare(int longitud, char caracter) {
+
+        System.out.println("Figura del cuadrado");
+
+    }
+
 }

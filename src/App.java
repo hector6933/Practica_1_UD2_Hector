@@ -11,6 +11,7 @@ public class App {
             System.out.println("Choose an option:\n" +
                     "  1. Square\n" +
                     "  2. Title\n" +
+                    "  3. Square Char\n " +
                     "  0. Quit\n");
 
             int numero = teclado.nextInt();
@@ -24,6 +25,10 @@ public class App {
                 String titulo = teclado.nextLine();
                 titulo = teclado.nextLine();
                 Titles.writeTitle(titulo);
+            } else if (numero == 3) {
+
+                Figures.writeSquare(22,'3');
+
             } else if (numero == 0) {
                 Console.close();
             }

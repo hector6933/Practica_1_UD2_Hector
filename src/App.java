@@ -12,6 +12,7 @@ public class App {
                     "  1. Square\n" +
                     "  2. Title\n" +
                     "  3. Square Char\n " +
+                    "  4. Triangulo Invertido" +
                     "  0. Quit\n");
 
             int numero = teclado.nextInt();
@@ -28,6 +29,11 @@ public class App {
             } else if (numero == 3) {
 
                 Figures.writeSquare(22,'3');
+
+            } else if (numero == 4) {
+
+                Figures.writeInvertedPyramid(6);
+
 
             } else if (numero == 0) {
                 Console.close();

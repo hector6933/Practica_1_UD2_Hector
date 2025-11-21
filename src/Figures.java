@@ -21,4 +21,10 @@ public class Figures {
 
     }
 
+    public static void writeInvertedPyramid(int num) {
+
+        System.out.println("Dibujo triángulo invertido");
+
+    }
+
 }

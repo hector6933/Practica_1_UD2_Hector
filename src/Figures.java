@@ -1,5 +1,5 @@
 public class Figures {
-
+// Clase figures
     public static char Asterisk = '*';
 
     public static void writeSquare(int a) {

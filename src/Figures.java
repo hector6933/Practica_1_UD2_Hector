@@ -17,7 +17,6 @@ public class Figures {
     public static void writeSquare(int longitud, char caracter) {
 
         System.out.println("Figura del cuadrado");
-        writeSquare(5);
 
     }
 
